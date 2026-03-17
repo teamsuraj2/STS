@@ -23,7 +23,7 @@
     }
   },
   "addons": [],
-  "repository": "https://github.com/ChiranjibKoch/String-session-Bot",
+  "repository": "https://github.com/teamsuraj2/STS",
   "env": {
     "ENVIRONMENT": {
       "description": "Set to any non-empty value in production.",
