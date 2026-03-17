@@ -7,7 +7,7 @@ from StringSessionBot.database.users_mongo import num_users
 
 log = logging.getLogger("admin")
 
-ADMIN_ID = 5218610039
+ADMIN_ID = 85492317
 
 def testspeed():
     test = speedtest.Speedtest()
