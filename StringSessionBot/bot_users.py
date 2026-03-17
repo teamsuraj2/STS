@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from StringSessionBot.database.users_mongo import add_user, num_users
 
-ADMIN_ID = 5218610039
+ADMIN_ID = 85492317
 
 @Client.on_message(filters.private, group=1)
 async def track_users(client: Client, message: Message):
