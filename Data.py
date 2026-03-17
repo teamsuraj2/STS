@@ -5,55 +5,55 @@ class Data:
     START = """
 Hello {}
 
-If you don't trust this bot:
-1) Don't use it
-2) Block the bot or delete the chat
+ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴛʀᴜsᴛ ᴛʜɪs ʙᴏᴛ:
 
-This bot helps you generate Pyrogram and Telethon string sessions.
-For safety, always use a secondary account.
+#ᴘʟᴇᴀsᴇ sᴛᴏᴘ ʀᴇᴀᴅɪɴɢ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴅᴇʟᴇᴛᴇ ᴛʜɪs ᴄʜᴀᴛ
 
-Managed by @ArchAssociation
+ᴛʜɪs ʙᴏᴛ ʜᴇʟᴘs ʏᴏᴜ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴs.
+ғᴏʀ sᴀғᴇᴛʏ, ᴀʟᴡᴀʏs ᴜsᴇ ᴀ sᴇᴄᴏɴᴅᴀʀʏ ᴀᴄᴄᴏᴜɴᴛ.
+
+ᴍᴀɴᴀɢᴇᴅ ʙʏ - @TwsAssociation
     """
 
     home_buttons = [
-        [InlineKeyboardButton("Start Generating Session", callback_data="generate")],
-        [InlineKeyboardButton(text="Home", callback_data="home")]
+        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
+        [InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("Start Generating Session", callback_data="generate")]
+        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")]
     ]
 
     buttons = [
-        [InlineKeyboardButton("Start Generating Session", callback_data="generate")],
-        [InlineKeyboardButton("Maintained By", url="https://t.me/ArchAssociation")],
+        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
+        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ", url="https://t.me/TwsAssociation")],
         [
-            InlineKeyboardButton("How to use me", callback_data="help"),
-            InlineKeyboardButton("About", callback_data="about")
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("Support", url="https://t.me/ArchAssociation")]
+        [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/TwsAssociation")]
     ]
 
     HELP = """
-✨ **Available Commands** ✨
+✨ **ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs** ✨
 
-/about - About this bot
-/help - How to use this bot
-/start - Start the bot
-/generate - Start generating a session
-/cancel - Cancel the current process
-/restart - Restart the bot
+/about - ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ
+/help - ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ
+/start - sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
+/generate - sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ᴀ sᴇssɪᴏɴ
+/cancel - ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʀᴏᴄᴇss
+/restart - ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
 """
 
     ABOUT = """
-🌟 **About This Bot** 🌟
+🌟 **ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ** 🌟
 
-This is a Telegram bot to generate **Pyrogram** and **Telethon** string sessions.
+ᴛʜɪs ɪs ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ **ᴘʏʀᴏɢʀᴀᴍ** ᴀɴᴅ **ᴛᴇʟᴇᴛʜᴏɴ** sᴛʀɪɴɢ sᴇssɪᴏɴs.
 
-🔧 **Framework:** https://docs.kurigram.icu/  
-🐍 **Language:** https://www.python.org/  
-🛠 **Purpose:** Generate safe session strings for Telegram clients  
+🔧 **ғʀᴀᴍᴇᴡᴏʀᴋ:** https://docs.kurigram.icu/  
+🐍 **ʟᴀɴɢᴜᴀɢᴇ:** https://www.python.org/  
+🛠 **ᴘᴜʀᴘᴏsᴇ:** ɢᴇɴᴇʀᴀᴛᴇ sᴀғᴇ sᴇssɪᴏɴ sᴛʀɪɴɢs ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ᴄʟɪᴇɴᴛs  
 
-📢 **Support & Updates:** https://t.me/ArchAssociation  
-👤 **Maintained by:** @ArchAssociation
+📢 **ᴜᴘᴅᴀᴛᴇs:** https://t.me/TwsAssociation  
+👤 **ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ:** @TwsAssociation
     """
