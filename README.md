@@ -5,7 +5,7 @@ Telegram bot to generate **Pyrogram** and **Telethon** string sessions.
 > A star ⭐ from you means a lot!
 
 [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/ChiranjibKoch)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/teamsuraj2)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -36,13 +36,13 @@ Telegram bot to generate **Pyrogram** and **Telethon** string sessions.
 
 ## 🚀 Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/ChiranjibKoch/String-session-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/teamsuraj2/STS)
 
 ### Deploy to Heroku (Eco or higher)
 
 Use your own repo:
 
-https://github.com/ChiranjibKoch/String-session-Bot
+https://github.com/teamsuraj2/STS
 
 Make sure your `app.json` and `Procfile` are present, then deploy normally from GitHub.
 
@@ -50,5 +50,5 @@ Make sure your `app.json` and `Procfile` are present, then deploy normally from 
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/ChiranjibKoch/String-session-Bot
-   cd String-session-Bot
+   https://github.com/teamsuraj2/STS
+   cd STS
